@@ -105,10 +105,7 @@ function initGlobe() {
         Globe.pointsData(airportHistory.locations)
             .pointAltitude('size')
             .pointColor('white');
-        Globe.pointsData(gData)
-            .pointAltitude('size')
-            .pointColor('white');
-    }, 1000);
+    }, 4000);
     // NOTE Arc animations are followed after the globe enters the scene
     setTimeout(() => {
         Globe.arcsData(travelHistory.flights)
