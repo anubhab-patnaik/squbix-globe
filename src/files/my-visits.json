@@ -10,46 +10,6 @@
             "lng": "85.8245"
         },
         {
-            "text": "KOL",
-            "size": 1.0,
-            "country": "India",
-            "city": "Kolkata",
-            "lat": "22.5726",
-            "lng": "88.3639"
-        },
-        {
-            "text": "ASN",
-            "size": 1.0,
-            "country": "India",
-            "city": "Asansol",
-            "lat": "23.6833",
-            "lng": "86.9833"
-        },
-        {
-            "text": "JSR",
-            "size": 1.0,
-            "country": "India",
-            "city": "Jamshedpur",
-            "lat": "22.8000",
-            "lng": "86.1833"
-        },
-        {
-            "text": "HYD",
-            "size": 1.0,
-            "country": "India",
-            "city": "Hyderabad",
-            "lat": "17.3753",
-            "lng": "78.4744"
-        },
-        {
-            "text": "CHD",
-            "size": 1.0,
-            "country": "India",
-            "city": "Chandigarh",
-            "lat": "30.7333",
-            "lng": "76.7794"
-        },
-        {
             "text": "BLR",
             "size": 1.0,
             "country": "India",
@@ -58,68 +18,12 @@
             "lng": "77.5946"
         },
         {
-            "text": "SML",
+            "text": "SGN",
             "size": 1.0,
-            "country": "India",
-            "city": "Shimla",
-            "lat": "31.1048",
-            "lng": "77.1734"
-        },
-        {
-            "text": "DEL",
-            "size": 1.0,
-            "country": "India",
-            "city": "New Delhi",
-            "lat": "28.6139",
-            "lng": "77.2090"
-        },
-        {
-            "text": "GOA",
-            "size": 1.0,
-            "country": "India",
-            "city": "Goa",
-            "lat": "15.2993",
-            "lng": "74.1240"
-        },
-        {
-            "text": "AMR",
-            "size": 1.0,
-            "country": "India",
-            "city": "Amritsar",
-            "lat": "31.6340",
-            "lng": "74.8723"
-        },
-        {
-            "text": "MNL",
-            "size": 1.0,
-            "country": "India",
-            "city": "Manali",
-            "lat": "32.2394",
-            "lng": "77.1881"
-        },
-        {
-            "text": "GTG",
-            "size": 1.0,
-            "country": "India",
-            "city": "Gangtok",
-            "lat": "27.3333",
-            "lng": "88.6167"
-        },
-        {
-            "text": "PUD",
-            "size": 1.0,
-            "country": "India",
-            "city": "Pudducherry",
-            "lat": "11.9333",
-            "lng": "79.8333"
-        },
-        {
-            "text": "OOTY",
-            "size": 1.0,
-            "country": "India",
-            "city": "Ooty",
-            "lat": "11.4067",
-            "lng": "76.6936"
+            "country": "Singapore",
+            "city": "Singapore",
+            "lat": "1.3521",
+            "lng": "103.8198"
         }
     ]
 }
