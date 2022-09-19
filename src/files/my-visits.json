@@ -3,7 +3,7 @@
     "locations": [
         {
             "text": "BBI",
-            "size": 1.0,
+            "size": 1,
             "country": "India",
             "city": "Bhubaneswar",
             "lat": "20.2961",
@@ -11,7 +11,7 @@
         },
         {
             "text": "BLR",
-            "size": 1.0,
+            "size": 0.5,
             "country": "India",
             "city": "Bangalore",
             "lat": "12.9716",
@@ -19,7 +19,7 @@
         },
         {
             "text": "SGN",
-            "size": 1.0,
+            "size": 1,
             "country": "Singapore",
             "city": "Singapore",
             "lat": "1.3521",

@@ -74,11 +74,6 @@ function init() {
 }
 const N = 25;
 // SECTION Initializing the globe
-const gData = (airportHistory) => ({
-    lat: airportHistory.locations[0].lat,
-    lng: airportHistory.locations[0].lng,
-    size: 0.5,
-});
 // SECTION Globe
 function initGlobe() {
     // Initialize the Globe
@@ -103,7 +98,7 @@ function initGlobe() {
     });
     setTimeout(() => {
         Globe.pointsData(airportHistory.locations)
-            .pointAltitude('size')
+            .pointAltitude(0.1)
             .pointColor('white');
     }, 4000);
     // NOTE Arc animations are followed after the globe enters the scene
