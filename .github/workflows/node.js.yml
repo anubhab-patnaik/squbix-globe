@@ -29,3 +29,9 @@ jobs:
     - run: npm ci
     - run: npm install -g typescript
     - run: npm run build --if-present
+    - run: git config user.name anubhab-patnaik
+    - run: git config user.email anubhab.patnaik@squbix.com
+    - run: git add .
+    - run: git commit -m "Auto commiting latest deployment"
+    - run: git push origin main
+
