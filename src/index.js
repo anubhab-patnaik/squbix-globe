@@ -70,7 +70,7 @@ function init() {
     controls.minPolarAngle = Math.PI / 3.5;
     controls.maxPolarAngle = Math.PI - Math.PI / 3;
     window.addEventListener("resize", onWindowResize, false);
-    document.addEventListener("mousemove", onMouseMove);
+    // document.addEventListener("mousemove", onMouseMove);
 }
 const N = 25;
 // SECTION Initializing the globe
@@ -148,11 +148,11 @@ function initGlobe() {
 // function write(){
 //   document.getElementById("text").innerHTML = "Hi, these are the places I have visited so far. Click on the locations to view clicks and read about it.";
 // }
-function onMouseMove(event) {
-    mouseX = event.clientX - windowHalfX;
-    mouseY = event.clientY - windowHalfY;
-    // console.log("x: " + mouseX + " y: " + mouseY);
-}
+// function onMouseMove(event) {
+//   mouseX = event.clientX - windowHalfX;
+//   mouseY = event.clientY - windowHalfY;
+//   // console.log("x: " + mouseX + " y: " + mouseY);
+// }
 function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
