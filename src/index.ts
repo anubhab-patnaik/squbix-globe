@@ -106,7 +106,7 @@ function initGlobe() {
     animateIn: true,
   })
     .hexPolygonsData(countries.features)
-    .hexPolygonResolution(4)
+    .hexPolygonResolution(3)
     .hexPolygonMargin(0.7)
     .showAtmosphere(true)
     .atmosphereColor("#3a228a")
@@ -124,7 +124,7 @@ function initGlobe() {
 
   setTimeout(() => {
     Globe.pointsData(airportHistory.locations)
-      .pointAltitude(0.1)
+      .pointAltitude(0.05)
       .pointColor('white');
 
   }, 4000);

@@ -4,6 +4,8 @@
   "description": "My trips and journeys",
   "private": true,
   "scripts": {
+    "prestart": "tsc -b",
+    "prebuild": "tsc -b",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config=webpack.prod.js",
     "build-dev": "webpack --config=webpack.dev.js",
@@ -21,7 +23,6 @@
     "three": "^0.128.0",
     "three-globe": "^2.18.8",
     "three-glow-mesh": "^0.1.2",
-    "tsc": "^2.0.4",
     "typescript": "^4.8.3"
   },
   "devDependencies": {
